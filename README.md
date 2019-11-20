@@ -10,7 +10,7 @@
     (or a1 (not (or (not (or a2 a3)) a4)))
     (or (not (or (not (or a2 a3)) a4)) a1)
 
-##### -Output : At output expression, the numbers in the same row are all connected by conjunction, and each row is connected by disjunction. And the program must print out an error message if the given input does not follow the rule. After the DNF representation, print a line with "0". The next line of "0", represent solution as a list of integers. If integer is n, means n is True for the solution. If integer is -n, means n is False for the solution.
+##### -Output : At output expression, the numbers in the same row are all connected by conjunction, and each row is connected by disjunction. And the program must print out an error message if the given input does not follow the rule. After the DNF representation, print a line with "0". And then, represent solution as a list of integers. If integer is n, means n is True for the solution. If integer is -n, means n is False for the solution.
 
 ###### Output Example
     1
